@@ -1,0 +1,19 @@
+/*Nav Categories*/
+.navCategories {
+  text-align: left;
+  flex: 0;
+  order: 1;
+}
+
+.navCategories ul {
+  list-style-type: none;
+}
+
+.navCategories li {
+  cursor: pointer;
+}
+
+.navCategories li.selected {
+  background-color: rgb(87, 87, 206);
+  color: #ffffff;
+}
